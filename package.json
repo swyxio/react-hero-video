@@ -1,7 +1,7 @@
 {
   "name": "react-hero-video",
-  "version": "0.0.1",
-  "description": "a small styled React component to play your autoplay videos",
+  "version": "0.1.0",
+  "description": "a small styled React component to play your hero videos",
   "main": "build/index.js",
   "scripts": {
     "build": "babel lib -d build",

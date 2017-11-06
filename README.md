@@ -7,6 +7,8 @@ This module exports a react styled component that plays a video meant for backgr
 
 Check out our Demo at <https://sw-yx.github.io/react-hero-video/demo/>
 
+![react hero video demo][react-hero-video.gif]
+
 ## Installation
 
   `npm install react-hero-video`
