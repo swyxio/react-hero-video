@@ -1,0 +1,20 @@
+{
+  "name": "react-hero-video",
+  "version": "0.0.1",
+  "description": "a small styled React component to play your autoplay videos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sw-yx/react-hero-video.git"
+  },
+  "keywords": [],
+  "author": "@swyx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sw-yx/react-hero-video/issues"
+  },
+  "homepage": "https://github.com/sw-yx/react-hero-video#readme"
+}
