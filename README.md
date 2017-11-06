@@ -5,7 +5,7 @@ This module exports a react styled component that plays a video meant for backgr
 
 ## Known Issues
 
-The Youtube method doesnt work on iOS. [Sources](https://www.fuzzyraygun.com/youtube-iframe-embeds-not-working-on-ios-devices-fix/)
+The Youtube method doesnt work on iOS browsers. [Sources](https://www.fuzzyraygun.com/youtube-iframe-embeds-not-working-on-ios-devices-fix/)
 We will eventually support [HTML5 Video](http://walterebert.com/blog/html5-video-autoplay-mobile-revisited/)
 
 ## Demo
@@ -20,17 +20,25 @@ Check out our Demo at <https://sw-yx.github.io/react-hero-video/demo/>
 
 ## Usage
 
-    import {HeroVideo} from 'react-hero-video'
-    <HeroVideo
-      videoSrc="https://www.youtube.com/embed/W0LHTWG-UmQ?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W0LHTWG-UmQ"
-      videoTitle="react-hero-video Demo Page"
-      videoSubtitle="Even though large tracts of Europe and many old and famous States have fallen or may fall into the grip of the Gestapo and all the odious apparatus of Nazi rule, we shall not flag or fail. We shall go on to the end. We shall fight in France, we shall fight on the seas and oceans, we shall fight with growing confidence and growing strength in the air, we shall defend our island, whatever the cost may be. We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender, and if, which I do not for a moment believe, this island or a large part of it were subjugated and starving, then our Empire beyond the seas, armed and guarded by the British Fleet, would carry on the struggle, until, in God's good time, the New World, with all its power and might, steps forth to the rescue and the liberation of the old."
-    >
-      <p>
-        This is from a child element: The source for this code is available on{" "}
-        <a href="https://github.com/sw-yx/react-hero-video">Github</a>
-      </p>
-    </HeroVideo>
+    import React from "react";
+
+    import { HeroVideo } from "react-hero-video";
+
+    const HeroVideoDemo = () => (
+      <HeroVideo
+        videoSrc="https://www.youtube.com/embed/W0LHTWG-UmQ?autoplay=1&loop=1&playlist=W0LHTWG-UmQ"
+        // https://www.youtube.com/embed/W0LHTWG-UmQ?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W0LHTWG-UmQ
+        videoSubtitle="Instantly make people think you are a 10x coder with this one secret trick!"
+        videoTitle="Easy Hero Video in React"
+      >
+        <p>
+          This is from a child element
+        </p>
+      </HeroVideo>
+    );
+
+    export default HeroVideoDemo;
+
   
   
   It's that simple!
