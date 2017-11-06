@@ -3,6 +3,11 @@ react-hero-video
 
 This module exports a react styled component that plays a video meant for background video. The current method uses the [Youtube Embedded Video API](https://developers.google.com/youtube/player_parameters) but there are other methods to embed self hosted videos.
 
+## Known Issues
+
+The Youtube method doesnt work on iOS. [Sources](https://www.fuzzyraygun.com/youtube-iframe-embeds-not-working-on-ios-devices-fix/)
+We will eventually support [HTML5 Video](http://walterebert.com/blog/html5-video-autoplay-mobile-revisited/)
+
 ## Demo
 
 Check out our Demo at <https://sw-yx.github.io/react-hero-video/demo/>
@@ -45,3 +50,10 @@ In lieu of a formal style guide, take care to maintain the existing coding style
 - <https://hackernoon.com/building-a-react-component-library-part-1-d8a1e248fe6c>
 - <http://thenewcode.com/500/Use-YouTube-Videos-as-Fullscreen-Web-Page-Backgrounds>
 - <https://coverr.co/>
+
+## Research
+
+- <https://www.wired.com/2015/01/gif-tools/>
+- <https://eek.ro/why-bpg-will-replace-gifs-and-not-only/>
+- <http://walterebert.com/blog/using-animated-gifs-or-not/>
+- <https://www.fuzzyraygun.com/youtube-iframe-embeds-not-working-on-ios-devices-fix/>
